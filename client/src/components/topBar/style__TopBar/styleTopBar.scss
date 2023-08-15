@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: mediumpurple;
+    
+    
+}
+
+.backEnd, .frontEnd, .homePage {
+ padding: 10px 50px;
+ color: white;
+ font-size: 24px;
+ text-decoration: none;
+}
