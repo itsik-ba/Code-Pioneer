@@ -2,27 +2,22 @@ import "./index.css";
 import { Route, Routes } from "react-router-dom";
 
 // All Bars *****************
-import TopBar from './components/topBar/TopBar';
+import NavBar from "./components/NavBar";
+import { navBarMain} from "./components/Routes";
+import { navFrontEnd, navFrontEndHtml } from "./pages/frontEnd/routes/FrontRoutes";
 import FrontEnd from "./pages/frontEnd/FrontEnd";
-import Html from "./pages/frontEnd/html/Html";
-import Info from "./pages/frontEnd/html/sideBarLinks/Info";
+
 
 
 function App() {
    
   return (
      <div>
-        <TopBar />
-      
+      <NavBar navbar={navBarMain}/>
         <Routes>
+          <Route path="/FrontEnd" element={<FrontEnd frontEnd={navFrontEnd}/>}/>
+          <Route path="/html" element={<FrontEnd frontEnd={navFrontEndHtml}/>}/>
 
-          {/* main */}
-          <Route path="FrontEnd" element={<FrontEnd />} />
-
-          {/* html */}
-          <Route path="Html" element={<Html />} />
-          <Route path="Info" element={<Info />} />
-       
         </Routes>
        
        

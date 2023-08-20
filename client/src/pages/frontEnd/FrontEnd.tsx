@@ -1,24 +1,40 @@
 import { Link } from "react-router-dom"
 import "./style/frontend.scss"
 
+type navigationFront = {
+  link :string,
+  className:string,
+  name:string,
+}
 
-const FrontEnd = () => {
+type navProps = {
+  frontEnd:navigationFront[];
+}
+
+const FrontEnd: React.FC<navProps> = ({frontEnd}) => {
   return (
-    <div className="frontMain">
-     
-          <Link to={"/Html"} className="frontLink">Html</Link>
-          <Link to={"/Css"} className="frontLink">Css</Link>
-          <Link to={"/Bootstrap"} className="frontLink">Bootstrap</Link>
-          <Link to={"/Javascript"} className="frontLink">Javascript</Link>
-          <Link to={"/Typescript"} className="frontLink">Typescript</Link>
-          <Link to={"/Typescript"} className="frontLink">Typescript</Link>
-          <Link to={"/Typescript"} className="frontLink">Typescript</Link>
-         
-          
+    <>
+   <div className="mainFrontEnd">
+      {frontEnd.map((front, index) => (
+          <Link to={front.link} className={front.className} key={index}>
+            {front.name}
+          </Link>
+        ))}
+   </div>
 
-         
-    </div>
-  )
+   <main className="sidebar">
+<div className="sidebar__mainlinks">
+
+
+</div>
+
+<div className="mainc">
+  <h2 className="maincl">this is mainBlock</h2>
+</div>
+
+</main>
+    </>
+  );
 }
 
 export default FrontEnd
