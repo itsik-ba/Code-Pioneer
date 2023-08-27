@@ -15,7 +15,7 @@ const FrontEnd: React.FC<navProps> = ({frontEnd}) => {
   return (
     <>
    <div className="mainFrontEnd">
-      {frontEnd.map((front, index) => (
+        {frontEnd.map((front, index) => (
           <Link to={front.link} className={front.className} key={index}>
             {front.name}
           </Link>

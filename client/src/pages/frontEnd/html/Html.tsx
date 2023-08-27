@@ -1,42 +1,21 @@
-import { Link } from "react-router-dom";
-import "../style/sideBar.scss"
+import { Routes, Route } from "react-router-dom"
 import FrontEnd from "../FrontEnd"
-
+import { navFrontEnd, navFrontEndHtml } from "../routes/FrontRoutes"
 
 
 const Html = () => {
-  const htmlS = [
-  {name:"info", to:"/info"},
-  {name:"attributes", to:"/attributes"},
-  {name:"header", to:"/header"},
-  {name:"paragraph",
-   to:"/paragraph"},
-  {name:"style",
-   to:"/style"},
-  {name:"colors",
-   to:"/colors"},
-  {name:"links"},
-  {name:"images"},
-  {name:"table"},
-  {name:"list"},
-  {name:"class"},
-  {name:"id"},
-  {name:"responsive"},
-]
+  return (
+    <div>
+      <Routes>
+          <Route path="/FrontEnd" element={<FrontEnd frontEnd={navFrontEnd}/>}/>
+          <Route path="/html" element={<FrontEnd frontEnd={navFrontEndHtml}/>}/>
 
- return (
-  
-    <div className="htmlMain">
-    <FrontEnd/>
-      <main className="myLinks">
-     {htmlS.map((ht, index) => (
-     <Link key={index} to={`${ht.to}`} className="sideLinks">{ht.name}</Link>
-     ))}
-
-      </main>
-</div>
-  
+        </Routes>
+       
+    </div>
   )
 }
 
 export default Html
+
+

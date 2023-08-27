@@ -55,12 +55,12 @@
     {
       link:"/html",
       className:"htmlLinks",
-      name:"Html"
+      name:"image"
     },
     {
       link:"/html",
       className:"htmlLinks",
-      name:"Html"
+      name:"src"
     },
 
   ]
