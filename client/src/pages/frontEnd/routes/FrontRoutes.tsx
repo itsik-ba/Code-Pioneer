@@ -1,6 +1,6 @@
 
   // frontend navbar
-  export const navFrontEnd = [
+  export const navFrontEnd:any = [
     {
       link:"/html",
       className:"frontLink",
@@ -47,11 +47,11 @@
 
   // html routes
   export const navFrontEndHtml = [
-    {
-      link:"/html",
-      className:"htmlLinks",
-      name:"Html"
-    },
+    // {
+    //   link:"/html",
+    //   className:"htmlLinks",
+    //   name:"Html"
+    // },
     {
       link:"/html",
       className:"htmlLinks",
