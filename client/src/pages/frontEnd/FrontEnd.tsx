@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import {  NavLink } from "react-router-dom"
 import "./style/frontend.scss"
 
 type navigationFront = {
@@ -16,9 +16,9 @@ const FrontEnd: React.FC<navProps> = ({frontEnd}) => {
     <>
    <div className="mainFrontEnd">
          {frontEnd.map((front, index) => (
-          <Link to={front.link} className={front.className} key={index}>
+          <NavLink to={front.link} className={front.className} key={index}>
             {front.name}
-          </Link>
+          </NavLink>
         ))}
    </div>
 

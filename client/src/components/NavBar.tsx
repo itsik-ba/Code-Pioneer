@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import "./style/navBar.scss"
 
 type navigation = {
@@ -15,9 +15,9 @@ const NavBar: React.FC<navProps> = ({navbar}) => {
   return (
     <div className="mainNavBar">
         {navbar.map((nav, index) => (
-          <Link to={nav.link} className={nav.className} key={index}>
+          <NavLink to={nav.link} className={nav.className} key={index}>
             {nav.name}
-          </Link>
+          </NavLink>
         ))}
     </div>
   );
