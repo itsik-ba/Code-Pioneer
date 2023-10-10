@@ -1,7 +1,33 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-  
+body{
+    direction: rtl;
+    background-color: rgb(137, 137, 224);
+   
+}
+
+.container{
+    display: flex;
+    width: 100%; 
+    
+}
+
+.sideBar{
+ border:2px solid green;
+ width: 10%;
+}
+
+.mainCenter{
+   border:2px solid rgb(205, 92, 22);
+   width: 100%;
+
+}
+
+.info, .sideInfo{
+
+   text-align: center;
 }

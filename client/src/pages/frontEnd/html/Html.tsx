@@ -1,19 +1,15 @@
-import { Routes, Route } from "react-router-dom"
+import NavBar from "../../../components/navbar/NavBar"
+import { secStyle } from "../../../components/navbar/style/secStyle"
+import { frontLinks } from "../frontRoutes"
 
 
 const Html = () => {
   return (
     <div>
-    
-      <Routes>
-     
-
-        </Routes>
-       
+       <NavBar navLinks={frontLinks} navbarStyle={secStyle}/>  
+       <h2>sdfdsfsdfsf</h2>
     </div>
   )
 }
 
 export default Html
-
-

@@ -1,29 +1,36 @@
-import "./index.css";
 import { Route, Routes } from "react-router-dom";
 
-// All Bars *****************
-import NavBar from "./components/NavBar";
-import { navBarMain} from "./components/Routes";
-import { navFrontEnd, navFrontEndHtml } from "./pages/frontEnd/routes/FrontRoutes";
+// component
+import NavBar from "./components/navbar/NavBar";
+
+// 
+// style 
+import "./index.css";
+import { mainStyle } from "./components/navbar/style/mainStyle";
+// 
+
+// routes
+import { navLinks } from "./components/navbar/navRoutes";
 import FrontEnd from "./pages/frontEnd/FrontEnd";
 import Html from "./pages/frontEnd/html/Html";
 
-
+// 
 
 function App() {
    return (
-     <div>
-      <NavBar navbar={navBarMain}/>
-        <Routes>
-          <Route path="/FrontEnd"  element={<FrontEnd frontEnd={navFrontEnd}/>}/>
-          <Route path="/html" element={<FrontEnd frontEnd={navFrontEnd}/>} />
-        
-           
-        </Routes>
-       
-</div>
+   
+     <div className="mainDiv">
+       <NavBar navLinks={navLinks}
+        navbarStyle={mainStyle}/>
       
-  )
+       <Routes>
+        <Route path="/frontend" element={<FrontEnd />}/>
+        <Route path="/html" element={<Html />}/>
+       </Routes>
+       
+       </div>
+      )
 }
-
 export default App
+
+

@@ -1,40 +1,18 @@
-import {  NavLink } from "react-router-dom"
-import "./style/frontend.scss"
 
-type navigationFront = {
-  link :string,
-  className:string,
-  name:string,
-}
 
-type navProps = {
-  frontEnd:navigationFront[];
-}
+import NavBar from "../../components/navbar/NavBar";
+import { secStyle } from "../../components/navbar/style/secStyle";
+import { frontLinks } from "./frontRoutes";
 
-const FrontEnd: React.FC<navProps> = ({frontEnd}) => {
+
+const FrontEnd = () => {
   return (
-    <>
-   <div className="mainFrontEnd">
-         {frontEnd.map((front, index) => (
-          <NavLink to={front.link} className={front.className} key={index}>
-            {front.name}
-          </NavLink>
-        ))}
-   </div>
-
-   <main className="sidebar">
-<div className="sidebar__mainlinks">
-
-
-</div>
-
-<div className="mainc">
-  <h2 className="maincl">this is mainBlock</h2>
-</div>
-
-</main>
-    </>
-  );
+    <div 
+    className="frontMain">
+        <NavBar navLinks={frontLinks} navbarStyle={secStyle}/>
+        
+    </div>
+  )
 }
 
 export default FrontEnd
