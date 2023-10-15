@@ -16,7 +16,62 @@ export const htmlLinks = [
       },
     {
         link: "/html/basic",
-        name:"basic",
+        name:"htsdf",
+        className:"nav"
+      },
+    {
+        link: "/html/basic",
+        name:"htsdf",
+        className:"nav"
+      },
+    {
+        link: "/html/basic",
+        name:"htsdf",
+        className:"nav"
+      },
+    {
+        link: "/html/basic",
+        name:"htsdf",
+        className:"nav"
+      },
+    {
+        link: "/html/basic",
+        name:"htsdf",
+        className:"nav"
+      },
+    {
+        link: "/html/basic",
+        name:"htsdf",
+        className:"nav"
+      },
+    {
+        link: "/html/basic",
+        name:"htsdf",
+        className:"nav"
+      },
+    {
+        link: "/html/basic",
+        name:"htsdf",
+        className:"nav"
+      },
+    {
+        link: "/html/basic",
+        name:"htsdf",
+        className:"nav"
+      },
+    {
+        link: "/html/basic",
+        name:"htsdf",
+        className:"nav"
+      },
+    {
+        link: "/html/basic",
+        name:"htsdf",
+        className:"nav"
+      },
+    {
+        link: "/html/basic",
+        name:"htsdf",
         className:"nav"
       },
 ]

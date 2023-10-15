@@ -1,24 +1,25 @@
-import { htmlStyle } from "./style/htmlStyle"
-import NavBar from "../../../components/navbar/NavBar"
-import { secStyle } from "../../../components/navbar/style/secStyle"
-import { sideStyle } from "../../../components/navbar/style/sideStyle"
-import { frontLinks } from "../frontRoutes"
-import { htmlLinks } from "./htmlRoutes"
-
-
-
+import InfoProp from "../../../components/infoComp/InfoProp";
+import { infoStyle } from "../../../components/infoComp/style/infoStyle";
+import NavBar from "../../../components/navbar/NavBar";
+import { secStyle } from "../../../components/navbar/style/secStyle";
+import { sideStyle } from "../../../components/navbar/style/sideStyle";
+import { frontLinks } from "../frontRoutes";
+import { htmlLinks } from "./htmlRoutes";
 
 const Html = () => {
   return (
     <>
-    <NavBar navLinks={frontLinks} navbarStyle={secStyle}/>  
+      <NavBar navLinks={frontLinks} navbarStyle={secStyle} />
 
-    <div style={htmlStyle}>
-     <NavBar navLinks={htmlLinks} navbarStyle={sideStyle}/>  
-      <h2>2222222</h2>
-    </div>
+      <div style={{
+        display:"flex",
+        width: "100%",
+      }}>
+        <NavBar navLinks={htmlLinks} navbarStyle={sideStyle} />
+       <InfoProp infoStyle={infoStyle} />
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Html
+export default Html;

@@ -18,17 +18,18 @@ import Html from "./pages/frontEnd/html/Html";
 
 function App() {
    return (
-   
-     <div className="mainDiv">
-       <NavBar navLinks={navLinks}
+    <>
+    <NavBar navLinks={navLinks}
         navbarStyle={mainStyle}/>
-      
-       <Routes>
+
+    <section>
+     <Routes>
         <Route path="/frontend" element={<FrontEnd />}/>
         <Route path="/html" element={<Html />}/>
        </Routes>
-     
-       </div>
+ 
+</section>
+       </>
       )
 }
 export default App

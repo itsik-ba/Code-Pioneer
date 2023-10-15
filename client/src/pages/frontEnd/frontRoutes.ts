@@ -3,6 +3,20 @@ export const frontLinks = [
     link:"/html",
     name:"html",
     className:"nav",
-    
+    },
+    {
+    link:"/css",
+    name:"css",
+    className:"nav",
+    },
+    {
+    link:"/javascript",
+    name:"javascript",
+    className:"nav",
+    },
+   {
+    link:"/react",
+    name:"react",
+    className:"nav",
     },
 ]
