@@ -1,3 +1,4 @@
+
 import InfoProp from "../../../components/infoComp/InfoProp";
 import { infoStyle } from "../../../components/infoComp/style/infoStyle";
 import NavBar from "../../../components/navbar/NavBar";
