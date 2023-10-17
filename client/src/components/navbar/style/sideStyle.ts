@@ -5,7 +5,7 @@ export const sideStyle =
         fontSize: "21px",
         backgroundColor: "rgb(225,55,84",
         textDecoration:"none",
-        padding:"4px",
+        padding:"7px 4px",
         color:"white",
         fontWeight:"bold",
     }

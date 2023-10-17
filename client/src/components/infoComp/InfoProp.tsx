@@ -1,13 +1,25 @@
+import "./style/infosStyle.scss"
+import myImage from "./test.jpeg"
 
-type InfoStyle = {
-  infoStyle: React.CSSProperties;
-};
+type infoProp = {
 
-const MainInfo: React.FC<InfoStyle> = ({ }) => {
+}
+
+
+
+const MainInfo: React.FC<infoProp> = ({}) => {
   return (
-    <div className="m_info" style={{display:"flex", justifyContent:"center",width:"100%"}}>
-      <h1> MainInfo</h1>
-    </div>
+    <section>
+      <div className="title" >
+        <h2 className="title_head">title</h2>
+        </div>
+        <div className="image">
+         <img src={myImage} alt="" className="image_img" />
+        </div>
+      <div className="explain">
+      <p className="explain_exp">sdfsaf</p>
+     </div>
+    </section>
   );
 };
 

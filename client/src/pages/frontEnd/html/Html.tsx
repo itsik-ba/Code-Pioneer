@@ -1,4 +1,4 @@
-
+import "./html.scss";
 import InfoProp from "../../../components/infoComp/InfoProp";
 import { infoStyle } from "../../../components/infoComp/style/infoStyle";
 import NavBar from "../../../components/navbar/NavBar";
@@ -9,17 +9,15 @@ import { htmlLinks } from "./htmlRoutes";
 
 const Html = () => {
   return (
-    <>
+    <section>
       <NavBar navLinks={frontLinks} navbarStyle={secStyle} />
 
-      <div style={{
-        display:"flex",
-        width: "100%",
-      }}>
+      <div className="container">
         <NavBar navLinks={htmlLinks} navbarStyle={sideStyle} />
-       <InfoProp infoStyle={infoStyle} />
+        
+       <InfoProp  />
       </div>
-    </>
+      </section>
   );
 };
 
