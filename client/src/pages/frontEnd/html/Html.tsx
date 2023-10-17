@@ -1,11 +1,11 @@
-import "./html.scss";
+import "./style/html.scss";
 import InfoProp from "../../../components/infoComp/InfoProp";
-import { infoStyle } from "../../../components/infoComp/style/infoStyle";
 import NavBar from "../../../components/navbar/NavBar";
 import { secStyle } from "../../../components/navbar/style/secStyle";
 import { sideStyle } from "../../../components/navbar/style/sideStyle";
 import { frontLinks } from "../frontRoutes";
 import { htmlLinks } from "./htmlRoutes";
+import { htmlInfo } from "./htmlInfo";
 
 const Html = () => {
   return (
@@ -15,7 +15,10 @@ const Html = () => {
       <div className="container">
         <NavBar navLinks={htmlLinks} navbarStyle={sideStyle} />
         
-       <InfoProp  />
+        <div className="info">
+        <InfoProp infoarr={htmlInfo} />
+        </div>
+      
       </div>
       </section>
   );
