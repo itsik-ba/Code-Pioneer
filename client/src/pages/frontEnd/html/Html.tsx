@@ -1,3 +1,4 @@
+
 import "./style/html.scss";
 import InfoProp from "../../../components/infoComp/InfoProp";
 import NavBar from "../../../components/navbar/NavBar";
@@ -5,7 +6,7 @@ import { secStyle } from "../../../components/navbar/style/secStyle";
 import { sideStyle } from "../../../components/navbar/style/sideStyle";
 import { frontLinks } from "../frontRoutes";
 import { htmlLinks } from "./htmlRoutes";
-import { htmlInfo } from "./htmlInfo";
+import { htmlInfo } from "./routes/htmlInfo";
 
 const Html = () => {
   return (
