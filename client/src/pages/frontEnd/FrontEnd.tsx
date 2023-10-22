@@ -10,7 +10,7 @@ const FrontEnd = () => {
     <div 
     className="frontMain">
         <NavBar navLinks={frontLinks} navbarStyle={secStyle}/>
-        
+       
     </div>
   )
 }

@@ -2,11 +2,11 @@ export const secStyle =
     {
         display: "flex",
         justifyContent: "space-around",
-        fontSize: "21px",
-        backgroundColor: "white",
+        fontSize: "20px",
+        backgroundColor: "rgb(255, 246, 246)",
         textDecoration:"none",
-        padding:"4px",
-        color:"rgb(225,55,84",
+        padding:"3px",
+        color:"rgb(243, 21, 89)",
         fontWeight:"bold",
     }
     

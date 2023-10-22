@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 
-
-
 type navigate = {
   link:string,
   name:string,
@@ -15,7 +13,7 @@ type Navigation = {
 
 
 const NavBar: React.FC<Navigation> = ({ navLinks, navbarStyle}) => {
- 
+  
 return (
     <div style={navbarStyle} className="nav">
      {navLinks.map((navLink, index) =>(

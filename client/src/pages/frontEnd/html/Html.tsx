@@ -15,7 +15,8 @@ const Html = () => {
 
       <div className="container">
         <NavBar navLinks={htmlLinks} navbarStyle={sideStyle} />
-        
+       
+         
         <div className="info">
         <InfoProp infoarr={htmlInfo} />
         </div>

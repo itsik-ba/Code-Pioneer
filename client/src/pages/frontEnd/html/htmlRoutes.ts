@@ -1,7 +1,7 @@
 export const htmlLinks = [
     {
         link: "/html",
-        name:"basic",
+        name:"Elements",
         className:"nav"
       },
     {
