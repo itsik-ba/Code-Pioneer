@@ -6,6 +6,6 @@ export const sideStyle =
         backgroundColor: "rgb(243, 21, 89)",
         textDecoration:"none",
         padding:"7px 4px",
-        color:"white",
+        color:"#FEFBF6",
         
     }

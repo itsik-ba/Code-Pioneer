@@ -15,9 +15,9 @@ const MainInfo: React.FC<infoArray> = ({infoarr}) => {
   return (
     <>
    {infoarr.map((info, index) => (
-        <section key={index} className="section">
-        <div className="title" >
-        <h2 className="title_head">{info.header}</h2>
+        <section key={index} className="allsection">
+        <div className="infotitle" >
+        <h2 className="infotitle_head">{info.header}</h2>
         </div>
         <div className="image">
          <img src={info.url.toString()} alt="" className="image_img" />

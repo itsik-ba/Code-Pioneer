@@ -1,57 +1,57 @@
 export const htmlLinks = [
     {
-        link: "/html",
+        link: "/html/elements",
         name:"Elements",
         className:"nav"
       },
     {
-        link: "/html/basic",
-        name:"basic",
+        link: "/html/attributes",
+        name:"Attributes",
         className:"nav"
       },
     {
-        link: "/html/basic",
-        name:"basic",
+        link: "/html/tags",
+        name:"Tags",
         className:"nav"
       },
     {
-        link: "/html/basic",
-        name:"htsdf",
+        link: "/html/style",
+        name:"Style",
         className:"nav"
       },
     {
-        link: "/html/basic",
-        name:"htsdf",
+        link: "/html/formatting",
+        name:"Formatting",
         className:"nav"
       },
     {
-        link: "/html/basic",
-        name:"htsdf",
+        link: "/html/links",
+        name:"Links",
         className:"nav"
       },
     {
-        link: "/html/basic",
-        name:"htsdf",
+        link: "/html/Images",
+        name:"Images",
         className:"nav"
       },
     {
-        link: "/html/basic",
-        name:"htsdf",
+        link: "/html/Tables",
+        name:"Tables",
         className:"nav"
       },
     {
-        link: "/html/basic",
-        name:"htsdf",
+        link: "/html/Lists",
+        name:"Lists",
         className:"nav"
       },
     {
-        link: "/html/basic",
-        name:"htsdf",
+        link: "/html/File",
+        name:"File",
         className:"nav"
       },
     {
-        link: "/html/basic",
-        name:"htsdf",
+        link: "/html/Responsive",
+        name:"Responsive",
         className:"nav"
       },
     {

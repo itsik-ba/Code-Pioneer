@@ -6,7 +6,7 @@ import { secStyle } from "../../../components/navbar/style/secStyle";
 import { sideStyle } from "../../../components/navbar/style/sideStyle";
 import { frontLinks } from "../frontRoutes";
 import { htmlLinks } from "./htmlRoutes";
-import { htmlInfo } from "./routes/htmlInfo";
+import { htmlInfo } from "./layouts/htmlInfo";
 
 const Html = () => {
   return (
