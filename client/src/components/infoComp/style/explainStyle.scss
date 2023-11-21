@@ -6,19 +6,21 @@ $text-color: #A6D1E6; // Dark Gray
 $btn-color: #FF0063; // pink-red
 
 .wrapper{
-    padding: 100px 0px;
+    padding: 30px 0px;
     width: 100%;
-    display: flex;
+    height: 100%;
+    display: grid;
     justify-content: center;
-    text-align: center;
-}
+    // text-align: center;
+    gap: 50px;
+   }
 
 .section{
+ 
 background-color: $secondary-color;
 width:600px;
 height:600px;
 border-radius: 20px 20px 20px 20px;
-
 
 
 &_title{
@@ -38,13 +40,12 @@ border-radius: 20px 20px 20px 20px;
   height: 380px; 
  background-color:#A6D1E6;  
  padding:10px 0px;
- margin: 40px 15px; 
+ margin: 30px 15px; 
  border-radius: 10px;
 
  &_exp{
-    padding:9px;
+    padding:8px;
     margin-right: 350px;
-    color: $primary-color;
     color: $btn-color;
  }
 
@@ -52,16 +53,24 @@ border-radius: 20px 20px 20px 20px;
     background-color: $secondary-color;
     height: 270px;
     margin: 0 15px;
-    display: flex;
+    display: block;
     border-radius: 13px;
-
+   
  }
 
  &_par{
+   
     font-size: 20px;
-    padding: 20px;
+     padding: 10px;
     color: $primary-color;
- }
+    flex-wrap: wrap;
+   text-align: start;
+
+   }
+
+   &_span{
+    color: $btn-color;
+}
 
  &_btn{
     padding: 14px 0px;

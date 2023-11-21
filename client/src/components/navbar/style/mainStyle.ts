@@ -8,6 +8,8 @@ export const mainStyle=
         textDecoration:"none",
         backgroundColor: "#f31559",
         padding:"5px",
+        
+        
     }
 
    

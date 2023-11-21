@@ -11,6 +11,7 @@ import FrontEnd from "../pages/frontEnd/FrontEnd";
 
 // html
 import Html from "../pages/frontEnd/html/Html";
+import Elements from "../pages/frontEnd/html/htmlPages/Elements";
 
 
 
@@ -31,9 +32,10 @@ const AppRoutes = () => {
 
        {/* html */}
        <Route path="/html" element={<Html />}/>
-       
+       <Route path="/html/elements" element={<Elements />}/>
+    
 
-      </Routes>
+  </Routes>
     </div>
    
   )

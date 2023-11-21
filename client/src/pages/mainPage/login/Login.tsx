@@ -1,3 +1,4 @@
+
 import NavBar from "../../../components/navbar/NavBar"
 import { secStyle } from "../../../components/navbar/style/secStyle"
 import { homeRoutes } from "../homeRoutes"
