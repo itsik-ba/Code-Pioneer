@@ -3,10 +3,10 @@ export const secStyle =
         display: "flex",
         justifyContent: "space-around",
         fontSize: "20px",
-        backgroundColor: "#FEFBF6",
+        backgroundColor: "#EEEEEE",
         textDecoration:"none",
         padding:"3px",
-        color:"#f31559",
+        color:"#00699B",
         fontWeight:"bold",
     }
     

@@ -32,3 +32,7 @@ export const elementsInfo = [
      },
    
 ]
+
+export const attributesInfo = [
+    
+]

@@ -6,7 +6,7 @@ import { homeRoutes } from "../homeRoutes"
 const About = () => {
   return (
     <section>
-    <NavBar navLinks={homeRoutes} navbarStyle={secStyle} />
+    <NavBar navLinks={homeRoutes} navbarStyle={secStyle}/>
 
   <div className="about">
   <h1>about</h1>

@@ -14,7 +14,8 @@ function App() {
    return (
     <>
     <NavBar navLinks={navLinks}
-        navbarStyle={mainStyle}/>
+        navbarStyle={mainStyle}
+        />
 
     <section>
     < AppRoutes />

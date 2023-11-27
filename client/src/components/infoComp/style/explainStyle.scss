@@ -1,9 +1,12 @@
+
+// $secondary-color: #FEFBF6; // white
 $primary-color: #0074d9; // Blue
-$secondary-color: #FEFBF6; // white
-$background-color: #3D3C42; // gray black
-$title-color: #7F5283; // purple
-$text-color: #A6D1E6; // Dark Gray
-$btn-color: #FF0063; // pink-red
+$Secondprimary-color: #2B8FBF; // lightblue
+$Secondsecondary-color:#EEEEEE; // white
+$Secondbackground-color: #231F20; // black
+$Secondtitle-color: #00699B; //darkblue
+$Secondtext-color:#82D9ED ; // kyan
+$Secondbtn-color:#7F5283; // lightpurple
 
 .wrapper{
     padding: 30px 0px;
@@ -17,7 +20,7 @@ $btn-color: #FF0063; // pink-red
 
 .section{
  
-background-color: $secondary-color;
+background-color: $Secondsecondary-color;
 width:600px;
 height:600px;
 border-radius: 20px 20px 20px 20px;
@@ -26,19 +29,19 @@ border-radius: 20px 20px 20px 20px;
 &_title{
     font-size: 30px;
     padding: 18px;
-    color: $primary-color;
+    color: $Secondtitle-color;
    
     }
 
 &_info{
     padding: 18px; 
-    color: $title-color;
+    color: $Secondbtn-color;
     font-size: 22px; 
 }
 
 .main{
   height: 380px; 
- background-color:#A6D1E6;  
+ background-color:$Secondtext-color;  
  padding:10px 0px;
  margin: 30px 15px; 
  border-radius: 10px;
@@ -46,11 +49,11 @@ border-radius: 20px 20px 20px 20px;
  &_exp{
     padding:8px;
     margin-right: 350px;
-    color: $btn-color;
+    color: $Secondtitle-color;
  }
 
  &_under{
-    background-color: $secondary-color;
+    background-color: $Secondsecondary-color;
     height: 270px;
     margin: 0 15px;
     display: block;
@@ -69,17 +72,19 @@ border-radius: 20px 20px 20px 20px;
    }
 
    &_span{
-    color: $btn-color;
+    color: $Secondbtn-color;
 }
 
  &_btn{
     padding: 14px 0px;
+    
 
 
     &_tmbtn{
         border: none;
         border-radius:10px;
-        background-color: $btn-color;
+        background-color: $Secondbtn-color;
+        color:$Secondsecondary-color;
         font-size: 20px;
         padding:3px 0px;
         min-width:100px;

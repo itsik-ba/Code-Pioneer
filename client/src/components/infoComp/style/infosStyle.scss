@@ -1,10 +1,11 @@
-$primary-color: #f31559; // pink-red
-$secondary-color: #FEFBF6; // white
-$background-color: #3D3C42; // gray black
-$title-color: #7F5283; // purple
-$text-color: #A6D1E6; // Dark Gray
-$btn-color: #0074d9; // light-blue
 
+
+$Secondprimary-color: #2B8FBF; // lightblue
+$Secondsecondary-color:#EEEEEE; // white
+$Secondbackground-color: #231F20; // black
+$Secondtitle-color: #00699B; //darkblue
+$Secondtext-color:#82D9ED ; // kyan
+$Secondbtn-color:#7F5283; // lightpurple
 
 .allsection{
     padding: 10px 0px;
@@ -17,7 +18,7 @@ $btn-color: #0074d9; // light-blue
     padding: 30px 0px;
 
     &_head{
-        color:$text-color;
+        color:$Secondbtn-color;
         font-size: 36px;
     }
 }
@@ -28,7 +29,7 @@ $btn-color: #0074d9; // light-blue
     padding: 30px 0px;
 
     &_img{
-        width: 300px;
+        width:400px;
         height: 300px;
         box-shadow: -11px -4px 13px 7px #000000bf;
         
@@ -39,6 +40,6 @@ $btn-color: #0074d9; // light-blue
     display: flex;
     justify-content: center;
     padding: 30px 0px;
-    color: $secondary-color;
+    color: $Secondsecondary-color;
     font-size: 22px;
 }

@@ -1,9 +1,16 @@
-$primary-color: #f31559; // pink-red
-$secondary-color: #FEFBF6; // white
-$background-color: #3D3C42; // gray black
-$title-color: #7F5283; // purple
-$text-color: #A6D1E6; // Dark Gray
-$btn-color: #0074d9; // light-blue
+// $primary-color: #f31559; // pink-red
+// $secondary-color: #FEFBF6; // white
+// $background-color: #3D3C42; // gray black
+// $title-color: #7F5283; // purple
+// $text-color: #A6D1E6; // Dark Gray
+// $btn-color: #0074d9; // light-blue
+
+$Secondprimary-color: #2B8FBF; // lightblue
+$Secondsecondary-color:#EEEEEE; // white
+$Secondbackground-color: #231F20; // black
+$Secondtitle-color: #00699B; //darkblue
+$Secondtext-color:#82D9ED ; // kyan
+$Secondbtn-color:#7F5283; // lightpurple
 
 
 *{
@@ -18,7 +25,8 @@ html, body{
     width: 100%;
     height: 100%;
     direction: ltr;
-    background-color:$background-color;
+    background-color:$Secondprimary-color;
+    
     }
 
 .container{

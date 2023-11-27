@@ -1,14 +1,12 @@
-export const mainStyle= 
+export const mainStyle: React.CSSProperties = 
     {
         display: "flex",
         justifyContent: "space-around",
         fontSize: "22px",
-        color:"white",
-        className: "nav",
+        color:"#EEEEEE",
         textDecoration:"none",
-        backgroundColor: "#f31559",
+        backgroundColor: "#00699B",
         padding:"5px",
-        
         
     }
 

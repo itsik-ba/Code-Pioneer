@@ -3,9 +3,9 @@ export const sideStyle =
         width:"8%",
         display:"block",
         fontSize: "18px",
-        backgroundColor: "rgb(243, 21, 89)",
+        backgroundColor: "#00699B",
         textDecoration:"none",
         padding:"10px 4px",
-        color:"#FEFBF6",
+        color:"#EEEEEE",
         
     }
