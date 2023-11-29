@@ -7,7 +7,6 @@ export const mainStyle: React.CSSProperties =
         textDecoration:"none",
         backgroundColor: "#00699B",
         padding:"5px",
-        
     }
 
    

@@ -4,22 +4,17 @@ type navigate = {
   link:string,
   name:string,
   className:string,
-  
-}
+  }
 
 type Navigation = {
   navLinks:navigate[];
   navbarStyle: React.CSSProperties;
- 
-  }
-
+ }
 
 const NavBar: React.FC<Navigation> = ({ navLinks, navbarStyle}) => {
 
-  
-  
 return (
-    <section style={navbarStyle} className="nav">
+    <nav style={navbarStyle} className="nav">
     {navLinks.map((navLink, index) =>(
       <Link 
       style={navbarStyle}
@@ -28,10 +23,8 @@ return (
        className={navLink.className}
         >{navLink.name}
        </Link>
-       
-     ))}
-    
-    </section>
+       ))}
+ </nav>
   );
 }
 
